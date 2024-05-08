@@ -1,0 +1,41 @@
+/* footer-section css start */
+.footer-section{
+    position: relative;
+    padding: 40px 0;
+    border-top: 1px solid rgba(170, 170, 170, 0.274);
+}
+.footer-copyright{
+    font-size: 18px;
+    text-align: center;
+    color: $color-2;
+}
+.up-arrow{
+    position: absolute;
+    right: 50px;
+    top: -40px;
+    padding: 20px;
+    background-color: $bg-2;
+    border: 1px solid $bg-2;
+    &:hover{
+        color: $main-color;
+        border-color: $main-color;
+        i{
+            transform: scale(1.5);
+        }
+    }
+    i{
+        font-size: 40px;
+        transition: .5s;
+        @media (max-width: 399px) {
+            font-size: 35px;
+         }
+    }
+    @media (max-width: 767px) {
+        padding: 12px;
+        top: -50%;
+    }
+    @media (max-width: 767px) {
+       right: 20px;
+    }
+}
+/* footer-section css end */

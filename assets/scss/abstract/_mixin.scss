@@ -1,0 +1,15 @@
+@mixin media($value) {
+  @media (max-width: $value) {
+    @content;
+  }
+}
+@mixin d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

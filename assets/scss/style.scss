@@ -1,0 +1,26 @@
+/* <=============== css table of content ===============>
+1.banner-alert-light
+2.section-padding
+3.reset
+4.btn-1
+5.footer-section
+6.menu-trigger
+7.navbar-area
+8.banner-section
+9.about-section
+10.service-section
+11.portfolio-section
+12.resume-section
+13.contact-section
+14.home-2-wrapper
+<=============== css table of content ===============> */
+
+@import "abstract/keyframe";
+@import "abstract/mixin";
+@import "abstract/variable";
+@import "base/global";
+@import "base/reset";
+@import "base/typography";
+@import "component/button";
+@import "layout/footer";
+@import "pages/index";
